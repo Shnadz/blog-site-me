@@ -1,0 +1,22 @@
+.flex-container {
+    display: flex;
+    
+}
+
+.card {
+    background-color:azure;
+    border:30px solid black;
+    height: 200px;
+    flex: 1;
+}
+
+.first {
+    flex-grow: 2;
+    flex-shrink: 0.5;
+    flex-basis: 0.5;
+}
+
+.second {
+    flex: 0.5;
+}
+ 

@@ -1,0 +1,23 @@
+.flex-header {
+    display: flex;
+    flex:auto;
+    /* border: 0.20rem solid var(--color-dark); 
+    box-shadow: 0 0 5 0.15em var(--color-lightish); */
+    /* outline: 0.15em var(--color-light); */
+    padding: 1rem;
+}   
+
+.grid-container {
+    display: grid;
+    grid-template-rows: auto;
+}
+
+.card {
+    padding: 3rem;
+    border: 0.25rem solid; 
+}
+
+.left {
+    grid-row:span 2;
+
+}
